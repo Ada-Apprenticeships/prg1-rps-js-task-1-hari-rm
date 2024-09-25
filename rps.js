@@ -9,7 +9,7 @@ function rockPaperScissors(player1, player2) {
   }
 
 
-  if (player1 == player2) {
+  if (player1 === player2) { 
     return("draw")
   } else if (winningCombinations[player1].includes(player2)){
     return ("player1")
